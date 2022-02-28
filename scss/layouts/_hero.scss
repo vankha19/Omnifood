@@ -1,0 +1,19 @@
+.hero {
+    max-width: 130rem;
+    margin: 0 auto;
+    padding: 0 3.2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 9.6rem;
+    align-items: center;
+
+    &__img {
+        width: 100%;
+    }
+    &__desc {
+        font-size: 2rem;
+        line-height: 1.6;
+        font-weight: $default-font-weigh;
+        margin-bottom: 4.8rem;
+    }
+}

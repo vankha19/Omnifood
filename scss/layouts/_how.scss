@@ -1,0 +1,30 @@
+.step-img-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    &::before {
+        content: "";
+        position: absolute;
+        background-color: $color-primary-light;
+        width: 60%;
+        // height: 60%;
+        padding-bottom: 60%;
+        border-radius: 50%;
+        z-index: 10;
+    }
+    &::after {
+        content: "";
+        position: absolute;
+        background-color: #fae5d3;
+        width: 45%;
+        // height: 60%;
+        padding-bottom: 45%;
+        border-radius: 50%;
+        z-index: 10;
+    }
+}
+.step-img {
+    width: 35%;
+    z-index: 100;
+}

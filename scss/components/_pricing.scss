@@ -1,0 +1,94 @@
+.pricing-plan {
+    width: 75%;
+}
+.plan-header {
+    text-align: center;
+    margin-bottom: 5rem;
+}
+.plan-name {
+    font-size: 2rem;
+    font-weight: 600;
+    color: $color-primary-dark;
+    text-transform: uppercase;
+    margin-bottom: 3rem;
+}
+.plan-price {
+    font-size: 6rem;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 2rem;
+    span {
+        font-size: 3rem;
+    }
+}
+.plan-text {
+    font-size: 1.6rem;
+}
+.plan-details {
+    font-size: 1.6rem;
+    text-align: center;
+}
+.start {
+    border: 2px solid $color-primary-light;
+    justify-self: end;
+    padding: 4.8rem;
+}
+.complete {
+    background-color: $color-primary-light;
+    padding: 4.8rem;
+    position: relative;
+    overflow: hidden;
+    &::before {
+        content: "BEST VALUE";
+        display: inline-block;
+        position: absolute;
+        top: 45px;
+        right: -77px;
+        background-color: #ffd43b;
+        font-size: 1.6rem;
+        font-weight: 600;
+        padding: 0.8rem 8rem;
+        transform: rotate(45deg);
+    }
+}
+.list {
+    list-style: none;
+    margin-bottom: 3rem;
+    &__item {
+        display: flex;
+        align-items: center;
+        gap: 2rem;
+        margin-bottom: 1.2rem;
+        span {
+            font-size: 1.6rem;
+            color: #555;
+        }
+    }
+}
+.sign-up {
+    text-align: center;
+}
+
+.feature {
+    &__icon {
+        display: inline-block;
+        padding: 1.6rem;
+        background-color: $color-primary-light;
+        border-radius: 50%;
+        width: 3.2rem;
+        height: 3.2rem;
+        color: $color-primary;
+        font-weight: 700;
+        margin-bottom: 1.2rem;
+    }
+    &__title {
+        font-size: 2.4rem;
+        font-weight: 600;
+        color: #777;
+        margin-bottom: 1.2rem;
+    }
+    &__desc {
+        font-size: 1.6rem;
+        line-height: 1.8;
+    }
+}

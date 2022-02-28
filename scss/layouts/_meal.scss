@@ -1,0 +1,104 @@
+.meal {
+    box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.08);
+    border-radius: 1rem;
+    overflow: hidden;
+    transition: all 0.3s;
+    &__img {
+        width: 100%;
+    }
+    &__content {
+        padding: 3.2rem;
+    }
+    &__tag {
+        display: flex;
+        gap: 1rem;
+    }
+    &__title {
+        font-size: 2.4rem;
+        font-weight: 600;
+        color: #333;
+        margin-bottom: 2.4rem;
+    }
+    &__attributes {
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        gap: 1.6rem;
+    }
+    &__attribute {
+        display: flex;
+        align-items: center;
+        gap: 1.4rem;
+        font-size: 1.6rem;
+    }
+    &__icon {
+        height: 2.4rem;
+        width: 2.4rem;
+        color: $color-primary;
+    }
+    &:hover {
+        transform: translateY(-1rem);
+        box-shadow: 0 1.2rem 2.4rem rgba(0, 0, 0, 0.08);
+    }
+}
+.tag {
+    display: inline-block;
+    padding: 4px 8px;
+    border-radius: 1rem;
+    margin-bottom: 1.2rem;
+    font-weight: 600;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    color: #333;
+    &--vegetarian {
+        background-color: #51cf66;
+    }
+    &--vegan {
+        background-color: #94d82d;
+    }
+    &--paleo {
+        background-color: #ffd43b;
+    }
+}
+.diets {
+    &__list {
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+    &__item {
+        display: flex;
+        align-items: center;
+        gap: 2rem;
+        span {
+            font-size: 1.8rem;
+        }
+    }
+}
+.list-icon {
+    width: 3rem;
+    height: 3rem;
+    color: $color-primary;
+}
+
+.all-recipes {
+    text-align: center;
+}
+
+.link {
+    &:link,
+    &:visited {
+        display: inline-block;
+        text-decoration: none;
+        font-size: 1.8rem;
+        color: $color-primary;
+        border-bottom: 1px solid currentColor;
+        padding-bottom: 2px;
+        transition: all 0.3s;
+    }
+    &:hover,
+    &:active {
+        border-bottom: 1px solid transparent;
+    }
+}

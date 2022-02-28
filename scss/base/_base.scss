@@ -1,0 +1,20 @@
+@import "../abstract/variables";
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+body {
+    font-family: "Inter", sans-serif;
+    font-weight: $default-font-weigh;
+    line-height: 1;
+    color: $default-font-color;
+    overflow-x: hidden;
+}

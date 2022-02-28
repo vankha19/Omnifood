@@ -1,0 +1,30 @@
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 2rem;
+    padding: 1.6rem 3.2rem;
+    font-weight: 600;
+    border-radius: 9px;
+    transition: all 0.3s;
+
+    &--primary {
+        &:link,
+        &:visited {
+            background-color: $color-primary;
+            color: #fff;
+        }
+        &:hover,
+        &:active {
+            background-color: $color-primary-dark;
+        }
+    }
+    &--outline {
+        background-color: #fff;
+        color: #555;
+        &:hover,
+        &:active {
+            background-color: $color-primary-light;
+            box-shadow: inset 0 0 0 3px #fff;
+        }
+    }
+}

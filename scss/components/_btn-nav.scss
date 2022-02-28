@@ -1,0 +1,16 @@
+.btn-nav {
+    outline: none;
+    border: none;
+    background-color: transparent;
+    display: none;
+    cursor: pointer;
+    &-icon {
+        width: 4.8rem;
+        height: 4.8rem;
+        color: #333;
+    }
+}
+
+.btn-nav-icon[name="close"] {
+    display: none;
+}

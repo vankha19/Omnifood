@@ -1,0 +1,25 @@
+@import "abstract/variables";
+
+@import "base/base";
+@import "base/animations";
+@import "base/typography";
+@import "base/utilities";
+
+@import "components/btn";
+@import "components/btn-nav";
+@import "components/delivered";
+@import "components/testimonial";
+@import "components/gallary";
+@import "components/pricing";
+
+@import "layouts/grid";
+@import "layouts/header";
+@import "layouts/hero";
+@import "layouts/featured";
+@import "layouts/how";
+@import "layouts/meal";
+@import "layouts/cta";
+@import "layouts/footer";
+
+@import "page/home";
+@import "page/queries";

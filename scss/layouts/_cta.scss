@@ -1,0 +1,66 @@
+.cta {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    border-radius: 11px;
+    overflow: hidden;
+    box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.15);
+    background-color: $color-primary;
+
+    .heading-secondary {
+        margin-bottom: 3.2rem;
+    }
+    &__text-box {
+        padding: 6rem;
+    }
+    &__text {
+        font-size: 1.8rem;
+        line-height: 1.8;
+        color: inherit;
+        margin-bottom: 3.2rem;
+    }
+    &__img-box {
+        background-image: linear-gradient(
+                to right bottom,
+                rgba(235, 151, 78, 0.342),
+                rgba(230, 125, 34, 0.342)
+            ),
+            url(../../content/img/eating.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+}
+.form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 3rem;
+    column-gap: 2.4rem;
+    align-items: center;
+    &__label {
+        display: block;
+        margin-bottom: 1.2rem;
+        color: #333;
+        font-weight: 600;
+        font-size: 1.6rem;
+    }
+    &__input {
+        display: inline-block;
+        width: 100%;
+        padding: 1.2rem;
+        border-radius: 11px;
+        outline: none;
+        border: none;
+        font-size: 1.8rem;
+    }
+}
+.btn--form {
+    background-color: #45260a;
+    color: #fff;
+    align-self: end;
+    text-align: center;
+    padding: 1.2rem;
+    transition: all 0.3s;
+    &:hover {
+        background-color: #fff;
+        color: #45260a;
+    }
+}
